@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bamboo Flower Shop - Florist &amp; Cafe, Jerusalem</title>
+<style>
+  :root { --ink:#22301f; --soft:#5f6b5c; --line:#e2e6de; --bg:#f8f9f5; --accent:#3f6b4a; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; color:var(--ink); background:var(--bg); line-height:1.6; }
+  .wrap { max-width:920px; margin:0 auto; padding:0 20px; }
+  header.hero { padding:56px 0 28px; text-align:center; }
+  header.hero .kicker { font-size:14px; letter-spacing:.18em; text-transform:uppercase; color:var(--accent); font-family:Verdana, Geneva, sans-serif; }
+  header.hero h1 { font-size:44px; font-weight:400; margin:10px 0 14px; }
+  header.hero p { color:var(--soft); max-width:580px; margin:0 auto; font-size:17px; }
+  .strip { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:32px 0 6px; }
+  .strip img { width:100%; height:230px; object-fit:cover; border-radius:10px; display:block; }
+  .caption { font-size:13px; color:var(--soft); font-family:Verdana, Geneva, sans-serif; margin-bottom:36px; }
+  h2 { font-size:26px; font-weight:400; margin:36px 0 16px; border-bottom:1px solid var(--line); padding-bottom:10px; }
+  .services { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  .service { background:#fff; border:1px solid var(--line); border-radius:10px; padding:20px 22px; }
+  .service h3 { font-size:18px; font-weight:400; margin-bottom:6px; }
+  .service p { font-size:15px; color:var(--soft); }
+  .facts { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin:8px 0 22px; }
+  .fact .k { font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--soft); font-family:Verdana, Geneva, sans-serif; }
+  .fact .v { font-size:17px; margin-top:4px; }
+  .cta { display:flex; gap:12px; flex-wrap:wrap; margin:6px 0 40px; }
+  .cta a { font-family:Verdana, Geneva, sans-serif; font-size:15px; text-decoration:none; padding:13px 22px; border-radius:8px; border:1px solid var(--accent); color:var(--accent); }
+  .cta a.primary { background:var(--accent); color:#fff; }
+  .note { background:#fff; border:1px solid var(--line); border-left:4px solid var(--accent); border-radius:8px; padding:16px 20px; font-size:14px; color:var(--soft); font-family:Verdana, Geneva, sans-serif; margin-bottom:36px; }
+  footer { border-top:1px solid var(--line); padding:20px 0 40px; font-size:13px; color:var(--soft); font-family:Verdana, Geneva, sans-serif; }
+  @media (max-width:640px) {
+    header.hero h1 { font-size:34px; }
+    .strip { grid-template-columns:1fr; }
+    .strip img { height:200px; }
+    .services, .facts { grid-template-columns:1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div class="kicker">Florist &amp; Cafe - Jerusalem</div>
+    <h1>Bamboo Flower Shop</h1>
+    <p>Seasonal flowers chosen with care and arranged into elegant bouquets - plus a sunny patio with coffee and French pastries, in the heart of Jerusalem.</p>
+  </header>
+
+  <div class="strip">
+    <img src="bouquet.jpg" alt="Florist finishing a hand-tied bouquet of orchids, roses and lilies">
+    <img src="shop.jpg" alt="Flower shop interior with fresh flowers by the window">
+    <img src="wedding.jpg" alt="White floral centerpiece on a set event table">
+  </div>
+  <div class="caption">Photos are placeholders - the shop's own arrangements will replace them.</div>
+
+  <h2>From the shop</h2>
+  <div class="services">
+    <div class="service"><h3>Bouquets and arrangements</h3><p>The best seasonal flowers, selected for beauty and durability, assembled into distinguished, elegant bouquets.</p></div>
+    <div class="service"><h3>Weddings and events</h3><p>From an unforgettable wedding to a business conference - we study your project and design the flowers around it.</p></div>
+    <div class="service"><h3>Gifts with your flowers</h3><p>Chocolate, wine and scents to complete the surprise - a warm touch for someone you cherish.</p></div>
+    <div class="service"><h3>Coffee on the patio</h3><p>Take a moment on our fresh, sunny patio - tasteful coffee, French pastries and other little secret recipes.</p></div>
+  </div>
+
+  <h2>Order or visit</h2>
+  <div class="facts">
+    <div class="fact"><div class="k">Address</div><div class="v">HaMelitz 4, Jerusalem</div></div>
+    <div class="fact"><div class="k">Phone</div><div class="v">02-652-4233</div></div>
+    <div class="fact"><div class="k">Email</div><div class="v">anna.oliel@gmail.com</div></div>
+  </div>
+  <div class="cta">
+    <a class="primary" href="tel:+97226524233">Call the shop</a>
+    <a href="mailto:anna.oliel@gmail.com">Email us</a>
+  </div>
+
+  <div class="note"><strong>Draft preview.</strong> This page is a design draft built by The Shemesh Studio. Text, photos and details will be confirmed with Bamboo Flower Shop before anything goes live.</div>
+
+  <footer>Draft prepared September 2026 by The Shemesh Studio.</footer>
+</div>
+</body>
+</html>
